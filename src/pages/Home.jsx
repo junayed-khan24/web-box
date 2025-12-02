@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Services from './Services';
-import Hero from './Hero';
 import Choose from './Choose';
 import Footer from './Footer';
 import Team from './Team';
@@ -12,7 +11,6 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Slider></Slider>
-            <Hero></Hero>
             <Services></Services>
             <Choose></Choose>
             <HeroSection></HeroSection>

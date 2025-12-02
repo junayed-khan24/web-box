@@ -4,12 +4,12 @@ import { useSwipeable } from "react-swipeable";
 
 const slides = [
   {
-    image: "../../src/assets/assets/Slide1.jpg",
+    image: "../../src/assets/assets/image.webp",
     title: "Speak Smart",
     subtitle: "Learn English easily and speak first",
   },
   {
-    image: "../../src/assets/assets/slide2.jpg",
+    image: "../../src/assets/assets/front-view-business-people-meeting.jpg",
     title: "Fluent Future",
     subtitle: "Boost your English and speak confidently",
   },
@@ -44,7 +44,7 @@ const Slider = () => {
   return (
     <div
       {...handlers}
-      className="relative w-full h-[85vh] sm:h-screen overflow-hidden select-none"
+      className="relative w-full h-[75vh] sm:h-screen overflow-hidden select-none"
     >
       {slides.map((slide, index) => (
         <div
