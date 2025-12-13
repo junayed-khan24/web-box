@@ -64,7 +64,7 @@ const Slider = () => {
           />
 
           {/* Gradient Overlay for Text Visibility */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent"></div>
 
           {/* Text Section (Mobile Centered) */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-10">
