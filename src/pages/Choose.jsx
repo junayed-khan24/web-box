@@ -1,30 +1,30 @@
 import React from "react";
-import { Monitor, Layout, Target, Laptop } from "lucide-react"; // icon pack
+import { Monitor, Code2, Database, Briefcase } from "lucide-react";
 
 const features = [
   {
     id: 1,
     icon: <Monitor size={46} className="text-pink-600 mx-auto mb-4" />,
-    title: "Unique Design",
-    desc: "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",
+    title: "Unique Web Design",
+    desc: "We create unique and visually appealing web designs that reflect your brand identity and deliver a smooth, engaging user experience.",
   },
   {
     id: 2,
-    icon: <Layout size={46} className="text-pink-600 mx-auto mb-4" />,
-    title: "Different Layout",
-    desc: "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",
+    icon: <Code2 size={46} className="text-pink-600 mx-auto mb-4" />,
+    title: "Custom Website",
+    desc: "Custom-built websites designed to meet your specific business needs with clean code, flexibility, and long-term scalability.",
   },
   {
     id: 3,
-    icon: <Target size={46} className="text-pink-600 mx-auto mb-4" />,
-    title: "Portfolio Styles",
-    desc: "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",
+    icon: <Database size={46} className="text-pink-600 mx-auto mb-4" />,
+    title: "CMS Website",
+    desc: "Easy-to-manage CMS websites that allow you to update content, images, and pages effortlessly without technical knowledge.",
   },
   {
     id: 4,
-    icon: <Laptop size={46} className="text-pink-600 mx-auto mb-4" />,
-    title: "WordPress Theme",
-    desc: "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",
+    icon: <Briefcase size={46} className="text-pink-600 mx-auto mb-4" />,
+    title: "Business Website",
+    desc: "Professional business websites focused on credibility, performance, and conversions to help grow your online presence.",
   },
 ];
 

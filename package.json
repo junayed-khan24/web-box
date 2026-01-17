@@ -13,6 +13,7 @@
     "@tailwindcss/vite": "^4.1.17",
     "daisyui": "^5.4.5",
     "dom": "^0.0.3",
+    "install": "^0.13.0",
     "lucide-react": "^0.552.0",
     "react": "^19.2.0",
     "react-dom": "^19.1.1",
