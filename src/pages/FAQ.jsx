@@ -23,8 +23,7 @@ const FAQ = () => {
             <span className="transition group-open:rotate-180">⌄</span>
           </summary>
           <p className="mt-4 text-gray-600">
-            Yes, every website is fully responsive and optimized for mobile,
-            tablet, and desktop devices.
+            Yes, every website is fully responsive and optimized 
           </p>
         </details>
 
