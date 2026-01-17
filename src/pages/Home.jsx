@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Team from './Team';
 import Slider from './Slider';
 import HeroSection from './HeroSection';
+import FAQ from './FAQ';
 const Home = () => {
     return (
         <div>
@@ -15,6 +16,7 @@ const Home = () => {
             <Choose></Choose>
             <HeroSection></HeroSection>
             <Team></Team>
+            <FAQ></FAQ>
             <Footer></Footer>
         </div>
     );
