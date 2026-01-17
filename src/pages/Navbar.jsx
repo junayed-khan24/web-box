@@ -12,32 +12,32 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-2xl font-bold text-red-700">
+            <Link to="/" className="text-2xl font-bold text-pink-700">
               <span className="text-3xl">W</span>eb<span className="text-3xl">B</span>ox
             </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center text-1xl font-bold">
-            <Link to="/" className="text-gray-700 hover:text-red-600">
+            <Link to="/" className="text-gray-700 hover:text-pink-600">
               Home
             </Link>
-            <Link to="/aboutClub" className="text-gray-700 hover:text-red-600">
+            <Link to="/aboutClub" className="text-gray-700 hover:text-pink-600">
               About
             </Link>
             <Link
               to="/services"
-              className="text-gray-700 hover:text-red-600"
+              className="text-gray-700 hover:text-pink-600"
             >
               Services
             </Link>
             <Link
               to="/contact"
-              className="text-gray-700 hover:text-red-600"
+              className="text-gray-700 hover:text-pink-600"
             >
               Contact
             </Link>
-            <div className="flex justify-center items-center gap-2 text-red-700 text-xl">
+            <div className="flex justify-center items-center gap-2 text-pink-700 text-xl">
               <FaPhoneAlt size={24}></FaPhoneAlt>
               01770-718121
             </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-red-600 focus:outline-none"
+              className="text-gray-700 hover:text-pink-600 focus:outline-none"
             >
               {isOpen ? (
                 <svg
