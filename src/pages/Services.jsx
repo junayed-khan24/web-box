@@ -1,23 +1,24 @@
 import React from "react";
+import img from '../../src/assets/assets/360_F_204954211_kooIszfUuIfxttEhObIV3m2IEg7f110c.jpg'
 
 const services = [
   {
     id: 1,
-    image: "../../src/assets/assets/360_F_204954211_kooIszfUuIfxttEhObIV3m2IEg7f110c.jpg",
+    image: img,
     title: "Understand the situation",
     description:
       "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",
   },
   {
     id: 2,
-    image: "../../src/assets/assets/360_F_204954211_kooIszfUuIfxttEhObIV3m2IEg7f110c.jpg",
+    image: img,
     title: "Bring the experience to life",
     description:
       "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",
   },
   {
     id: 3,
-    image: "../../src/assets/assets/360_F_204954211_kooIszfUuIfxttEhObIV3m2IEg7f110c.jpg",
+    image: img,
     title: "Strategise chart the course",
     description:
       "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.",

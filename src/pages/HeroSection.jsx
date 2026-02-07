@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../src/assets/assets/team3.png'
 
 const HeroSection = () => {
   return (
@@ -8,7 +9,7 @@ const HeroSection = () => {
       <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-auto flex items-center justify-center">
         <img
           className="w-full h-full object-cover"
-          src="../../src/assets/assets/front-view-business-people-meeting.jpg"
+          src={img}
           alt="Team working"
         />
       </div>

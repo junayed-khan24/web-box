@@ -1,21 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { HiArrowRight } from "react-icons/hi";
 import { useSwipeable } from "react-swipeable";
+import img1 from '../../src/assets/assets/team.png'
+import img2 from '../../src/assets/assets/team2.png'
+import img3 from '../../src/assets/assets/team3.png'
 
 const slides = [
   {
-    image: "../../src/assets/assets/image.webp",
+    image: img1,
     title: "Speak Smart",
     subtitle: "Learn English easily and speak first",
   },
   {
-    image: "../../src/assets/assets/front-view-business-people-meeting.jpg",
+    image: img2,
     title: "Fluent Future",
     subtitle: "Boost your English and speak confidently",
   },
   {
-    image:
-      "../../src/assets/assets/360_F_204954211_kooIszfUuIfxttEhObIV3m2IEg7f110c.jpg",
+    image: img3,
     title: "English Vibes",
     subtitle: "Join a modern club to practice, grow, and shine",
   },

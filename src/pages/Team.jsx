@@ -1,25 +1,26 @@
 import React from "react";
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 import pic1 from '../../src/assets/assets/188147906__1_-removebg-preview.png'
+import pic2 from '../../src/assets/assets/download (2).png'
 
 const teamMembers = [
   {
     id: 1,
     name: "HERMAN MILLER",
     role: "CO-FOUNDER / DESIGN",
-    img: pic1,
+    img: pic2,
   },
   {
     id: 2,
     name: "BILL GARDNER",
     role: "CO-FOUNDER / DESIGN",
-    img: pic1,
+    img: pic2,
   },
   {
     id: 3,
     name: "JEREMY DUPONT",
     role: "CREATIVE DIRECTOR",
-    img: pic1,
+    img: pic2,
   },
   {
     id: 4,
