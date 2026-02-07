@@ -13,19 +13,19 @@ const teamMembers = [
     id: 2,
     name: "BILL GARDNER",
     role: "CO-FOUNDER / DESIGN",
-    img: "../../src/assets/assets/team.webp",
+    img: pic1,
   },
   {
     id: 3,
     name: "JEREMY DUPONT",
     role: "CREATIVE DIRECTOR",
-    img: "../../src/assets/assets/young-successful-businessman-posing-with-crossed-arms_176420-1149.avif",
+    img: pic1,
   },
   {
     id: 4,
     name: "SARA SMITH",
     role: "CREATIVE STUDIO HEAD",
-     img: "../../src/assets/assets/young-successful-businessman-posing-with-crossed-arms_176420-1149.avif",
+     img: pic1,
   },
 ];
 
