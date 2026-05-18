@@ -20,7 +20,7 @@ const teamMembers = [
     id: 3,
     name: "JEREMY DUPONT",
     role: "CREATIVE DIRECTOR",
-    img: pic2,
+    img: pic1,
   },
   {
     id: 4,
