@@ -45,7 +45,7 @@ const Footer = () => {
               <a href="#" className="hover:text-pink-500 transition"><Facebook size={22} /></a>
               <a href="#" className="hover:text-pink-500 transition"><Twitter size={22} /></a>
               <a href="#" className="hover:text-pink-500 transition"><Instagram size={22} /></a>
-              <a href="#" className="hover:text-pink-500 transition"><Mail size={22} /></a>
+              {/* <a href="#" className="hover:text-pink-500 transition"><Mail size={22} /></a> */}
             </div>
           </div>
         </div>
