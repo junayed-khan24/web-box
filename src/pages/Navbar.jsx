@@ -12,8 +12,8 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-2xl font-bold text-pink-700">
-              <span className="text-3xl">W</span>eb<span className="text-3xl">B</span>ox
+            <Link to="/" className="text-xl md:text-2xl font-bold text-pink-700">
+              <span className="text-2xl md:text-3xl">W</span>eb<span className="text-2xl md:text-3xl">B</span>ox
             </Link>
           </div>
 

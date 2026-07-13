@@ -46,7 +46,7 @@ const Slider = () => {
   return (
     <div
       {...handlers}
-      className="relative w-full h-[51vh] sm:h-screen overflow-hidden select-none"
+      className="relative w-full h-[30vh] sm:h-[60vh] md:h-[100vh] overflow-hidden select-none"
     >
       {slides.map((slide, index) => (
         <div
@@ -76,7 +76,7 @@ const Slider = () => {
             <p className="text-white text-sm sm:text-lg md:text-2xl max-w-xs sm:max-w-xl md:max-w-2xl mb-5 sm:mb-8 drop-shadow-md leading-relaxed">
               {slide.subtitle}
             </p>
-            <button className="flex items-center gap-2 bg-pink-600 hover:bg-pink-700 text-white font-semibold py-2 sm:py-3 px-5 sm:px-8 rounded-full text-sm sm:text-lg transition-all duration-300">
+            <button className="flex items-center gap-2 bg-pink-700 hover:bg-pink-800 text-white font-semibold py-2 sm:py-3 px-5 sm:px-8 rounded-full text-sm sm:text-lg transition-all duration-300">
               Join Us
               <HiArrowRight className="text-xl sm:text-2xl" />
             </button>
@@ -93,7 +93,7 @@ const Slider = () => {
             className={`w-2.5 h-2.5 sm:w-4 sm:h-4 rounded-full transition-all duration-300 ${
               index === current
                 ? "bg-white scale-110"
-                : "bg-pink-500 hover:bg-pink-600"
+                : "bg-pink-700 hover:bg-pink-800"
             }`}
           ></button>
         ))}
