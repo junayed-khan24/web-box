@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
+import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 import { useSwipeable } from "react-swipeable";
 import img1 from '../../src/assets/assets/team.png'
 import img2 from '../../src/assets/assets/team2.png'
@@ -62,7 +62,7 @@ const Slider = () => {
         aria-label="Previous slide"
         className="absolute left-2 sm:left-4 md:left-6 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-black/60 text-white p-1.5 sm:p-2 md:p-3 rounded-full transition-colors"
       >
-        <HiArrowLeft className="text-lg sm:text-xl md:text-2xl" />
+        <GoChevronLeft className="text-lg sm:text-xl md:text-2xl" />
       </button>
 
       {/* Right Button */}
@@ -71,7 +71,7 @@ const Slider = () => {
         aria-label="Next slide"
         className="absolute right-2 sm:right-4 md:right-6 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-black/60 text-white p-1.5 sm:p-2 md:p-3 rounded-full transition-colors"
       >
-        <HiArrowRight className="text-lg sm:text-xl md:text-2xl" />
+        <GoChevronRight className="text-lg sm:text-xl md:text-2xl" />
       </button>
 
       {slides.map((slide, index) => (
@@ -102,7 +102,7 @@ const Slider = () => {
             </p>
             <button className="flex items-center gap-2 bg-pink-700 hover:bg-pink-800 text-white font-semibold py-2 px-4 sm:py-3 sm:px-8 rounded-full text-xs sm:text-base md:text-lg transition-all duration-300">
               Join Us
-              <HiArrowRight className="text-lg sm:text-xl md:text-2xl" />
+              <GoChevronRight className="text-lg sm:text-xl md:text-2xl" />
             </button>
           </div>
         </div>
