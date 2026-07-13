@@ -46,7 +46,7 @@ const Slider = () => {
   return (
     <div
       {...handlers}
-      className="relative w-full h-[75vh] sm:h-screen overflow-hidden select-none"
+      className="relative w-full h-[51vh] sm:h-screen overflow-hidden select-none"
     >
       {slides.map((slide, index) => (
         <div
