@@ -35,7 +35,7 @@ const Services = () => {
         <h2 className="text-xl md:text-2xl text-left md:px-24 px-4 font-medium text-gray-800 mb-10">
           We always stay with our <span className="font-semibold text-black">clients</span> and{" "}
           <span className="font-semibold text-black">respect</span> their business. We deliver{" "}
-          <span className="font-semibold text-black">100%</span> and provide instant response to
+          <span className="font-semibold text-black">100%%</span> and provide instant response to
           help them succeed in constantly changing and{" "}
           <span className="font-semibold text-black">challenging business</span> world.
         </h2>
